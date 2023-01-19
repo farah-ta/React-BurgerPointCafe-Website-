@@ -1,0 +1,70 @@
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .menuTitle {
+  font-family: cursive;
+  font-size: 60px;
+}
+
+.menulist {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+/* MENU ITEM STYLING */
+
+.menut {
+  width: 300px;
+  height: 325px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.menut:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+
+}
+
+.menut div {
+
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menut h1,
+.menut p {
+  margin-left: 20px;
+}
+
+.redbtn
+{
+  width: 50%;
+  height: 50px;
+  background-color: #ac1212;
+  color: #f4ecec;
+  cursor:pointer;
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .menulist {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menulist {
+    grid-template-columns: 1fr;
+  }
+}

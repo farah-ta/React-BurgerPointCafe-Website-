@@ -1,0 +1,27 @@
+.about
+{
+
+
+width: 100%;
+  height: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutbottom
+{
+color:black;
+
+
+}
+.abouttop
+{
+    width:auto;
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
